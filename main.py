@@ -14,9 +14,9 @@ food.withdraw(105.55)
 entertainment.withdraw(33.40)
 business.withdraw(10.99)
 
-a = create_spend_chart([business, food, entertainment])
+result = create_spend_chart([business, food, entertainment])
 
-print(create_spend_chart([business, food, entertainment]))
+print(result)
 
 # Run unit tests automatically
 # main(module='test', exit=False)
